@@ -1,0 +1,42 @@
+.cards {
+    display: flex;
+}
+
+.image-card {
+    width: 50%;
+    height: 650px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-mini-card {
+    width: 100px;
+    height: 100px;
+}
+
+.title-card {
+    font-weight: normal;
+}
+
+.slogan-card {
+    font-weight: normal;
+}
+
+.button-card {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: large;
+}
+
+.button-card:hover {
+    background-color: lightskyblue;
+    color: aliceblue;
+    border-radius: 10px;
+}

@@ -8,7 +8,7 @@ https://formspree.io/
 ## Para iniciar el proyecto en desarrollo:
 
 Por favor trasladarse al directorio de la app:
-- cd app
+- cd pufi-app
 Instalar las dependencias con:
 - npm install
 Iniciar el proyecto con:
