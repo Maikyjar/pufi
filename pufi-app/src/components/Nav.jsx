@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import * as actionsCreators from "../actions"
 import { bindActionCreators } from 'redux';
 import './Nav.css';
+import { Icon } from '@iconify/react';
 
 function Nav({number, plus }) {
     return(
@@ -27,23 +28,24 @@ function Nav({number, plus }) {
             </div>
             <div id='page'>
                 <div id="top-nav">
-                    <h1 id='title'>Pufi</h1>
+                    <h1 id='title'>Pufi
+                    <Icon icon="bi:r-circle" width="16" height="16" /></h1>
                     <div id="button-nav">
                         <button className="button-top-nav"> 
-                            <div>⚪</div>
-                            PUFI PUFF
+                            <Icon icon="game-icons:sofa" />
+                            <div>PUFI PUFF</div>
                         </button>
                         <button className="button-top-nav">
-                            <div>⚪</div>
-                            PUFI RAIN
+                            <Icon icon="bi:umbrella-fill" />
+                            <div>PUFI RAIN</div>
                         </button>
                         <button className="button-top-nav">
-                            <div>⚪</div>
-                            PUFI CART
+                            <Icon icon="bi:cart-check-fill" />
+                            <div>PUFI CART</div>
                         </button>
                         <button className="button-top-nav">
-                            <div>⚪</div>
-                            PUFI NAP
+                            <Icon icon="bi:bag-check-fill" />
+                            <div>PUFI NAP</div>
                         </button>
                     </div>
                     <div id="account-nav">
@@ -61,7 +63,7 @@ function Nav({number, plus }) {
                     </h3>
                 </div>
                 <div id="shop-div">
-                    <button id="button-shop">SHOP</button>
+                    <button className="button-shop">SHOP</button>
                 </div>
                 <div id="arrows">
                     <a href="#item1" className="point-nav">🔘</a>

@@ -6,7 +6,7 @@ function rootReducer(state = initialState, action) {
     if (action.type === "PLUS") {
         return {
           ...state,
-          initial: 1,
+          initial: state.initial + 1,
         };
     }
     return state;

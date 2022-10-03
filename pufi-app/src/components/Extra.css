@@ -1,0 +1,38 @@
+#hr-extra {
+    -webkit-box-shadow: 2px 2px 5px #999;
+    border: 1px solid transparent;
+}
+
+#div-extra {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.list-extra {
+    list-style: none;
+    border-right: 1px solid black;
+    padding-left: 0;
+    padding-right: 100px;
+    text-align: left;
+}
+
+#final-logo {
+    font-weight: bold;
+}
+
+#final-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+#final-hr {
+    width: 1800px;
+}
+
+.list-item:hover {
+    border-block-end: 1px solid black;
+}

@@ -5,6 +5,8 @@
 .image-card {
     width: 50%;
     height: 650px;
+    object-fit: cover;
+    position: relative;
 }
 
 .information-card {
@@ -13,6 +15,34 @@
     width: 50%;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.container-shop-card-right {
+    position: absolute;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-shop-card-right:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container-shop-card-left {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-shop-card-left:hover {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .image-mini-card {
@@ -39,4 +69,9 @@
     background-color: lightskyblue;
     color: aliceblue;
     border-radius: 10px;
+}
+
+.hr-card {
+    width: 40px;
+    color: black;
 }

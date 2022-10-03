@@ -91,7 +91,6 @@
     background-color: aliceblue;
     color: black;
     border: none;
-    border-radius: 10px;
 }
 
 #account-nav {
@@ -110,6 +109,11 @@
     padding: 10px;
 }
 
+#account:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
 #account-select {
     background: transparent;
     color: aliceblue;
@@ -118,7 +122,7 @@
     font-size: 0.45cm;
 }
 
-#button-shop {
+.button-shop {
     width: 150px;
     height: 70px;
     border: 3px solid aliceblue;
@@ -133,7 +137,7 @@
     margin-top: 60px;
 }
 
-#button-shop:hover {
+.button-shop:hover {
     background-color: aliceblue;
     color: black;
 }
